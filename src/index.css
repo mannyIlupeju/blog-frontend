@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin:0;
+  padding: 0;
+}
+
+body{
+  font-family: "Kanit", "monospace"
+}
+
+
+.loader-screen {
+  height: 100vh;
+}
+
+.imgbox {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 3/2;
+  
+}
+
+.brandlogo {
+  width: 50px;
+  position: relative;
+  bottom: 2px;
+}
+
+.blogAppLogo {
+  width: 360px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* .fontClamp {
+  font-size: clamp(32px, 1vw, 48px)
+} */
+
+.nav-background {
+background: rgb(138,186,178);
+background: linear-gradient(167deg, rgba(138,186,178,1) 32%, rgba(112,175,151,1) 72%, rgba(53,153,154,1) 100%);
+}
+
+.backgroundImage { 
+background: rgb(94,124,119);
+background: linear-gradient(167deg, rgba(94,124,119,1) 36%, rgba(127,185,163,1) 67%, rgba(53,153,154,1) 100%);
+}
+
+.loginImage { 
+background: rgb(106,199,183);
+background: linear-gradient(167deg, rgba(106,199,183,1) 30%, rgba(112,175,151,1) 44%, rgba(53,153,154,1) 100%);
+}
+
+.loginBox {
+-webkit-clip-path: polygon(31% 0, 100% 0, 100% 100%, 0% 100%);
+clip-path: polygon(31% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.textDesc {
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+}
+
+.postBcground {
+  width: 300px;
+  padding: 18px;
+  border-radius: 10px;
+background: rgba( 255, 255, 255, 0 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2px );
+-webkit-backdrop-filter: blur( 2px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
