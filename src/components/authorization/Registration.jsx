@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import { registerPost } from '../../actions/authPosts'
 import {useSelector, useDispatch} from 'react-redux'
-import Success from './Messages/success'
 import { FaEye, FaEyeSlash } from 'react-icons/fa'
 
 
@@ -31,7 +30,6 @@ const Registration = () => {
     //prevent default submission
     e.preventDefault()
 
-    console.log(userData)
     //check if password matches
     if(userData.password === userData.retype) {
       //dispatch userData to registerPost
@@ -59,9 +57,6 @@ const Registration = () => {
     <>
       <div className="flex justify-center h-screen">
         <div className="mt-20 postBcground w-96 p-12 h-fit">
-        <div className="flex justify-center mb-8">
-          {userCreated && <Success/>}
-        </div>
           <div>
             <div className="text-center mb-2">
             <h1 className="uppercase text-slate-900 text-2xl">Register</h1>

@@ -74,7 +74,7 @@ const Login = ({setisLogin}) => {
 
   return (
     <>
-    <div className="flex justify-center mx-auto">
+    <div className="flex justify-center mx-auto p-24">
       <div className="postBcground p-12 w-96">
         <div className="text-center mb-4">
           <h1 className="uppercase text-2xl text-slate-900">Login</h1>
