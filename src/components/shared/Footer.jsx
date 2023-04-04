@@ -5,7 +5,7 @@ const Footer = () => {
     <>
   <footer className="footer p-10 bg-neutral flex justify-center justify-between text-neutral-content">
   <div>
-    <img src="../../../public/images/memoryblog.png" className="brandlogo"/>
+    <img src="/images/memoryblog.png" className="brandlogo"/>
     <p>Memory Blog<br/>Your Personal Journal</p>
   </div> 
   <div>

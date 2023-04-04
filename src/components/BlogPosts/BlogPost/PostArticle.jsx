@@ -14,7 +14,7 @@ const PostArticle = () => {
 
 
   return (
-    <div className=" grid grid-cols-2 mx-20 text-gray-800 leading-loose">
+    <div className=" grid grid-cols-2 mx-20 text-gray-800 h-screen leading-loose">
       <div className="">
         <div className="mb-8">
           <h1 className="text-4xl mt-10">{blog.title}</h1>
